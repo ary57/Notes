@@ -90,11 +90,11 @@ $$C_{i,j}=\sum_{k}^{ }A_{i,k}B_{k,j}$$
 ### Matrix product properteis 
 Matrix product
 - Is distributive
-$$ A(B+C)=AB+AC $$
+$$A(B+C)=AB+AC$$
 - Is associative
-$$ A(BC)=(AB)C $$
+$$A(BC)=(AB)C$$
 - Is **NOT** commutative
-$$ A(B+C) \text{ not always } AB+AC $$
+$$A(B+C) \text{ not always } AB+AC$$
 
 ## Element-wise Product / Hadamard Product
 - A matrix containing the product of individual elements (like matrix addition).
@@ -105,25 +105,25 @@ $$ A(B+C) \text{ not always } AB+AC $$
 ## System of linear equation
 $$Ax=b$$
 - Where:
-    - $ A \in \R^{m \times n} $ is a known matrix.
-    - $ b \in \R^{m} $ is a known vector.
-    - $ x \in \R^{n} $ is a vector of unknown variables we're trying to solve for.
+    - $A \in \R^{m \times n}$ is a known matrix.
+    - $b \in \R^{m}$ is a known vector.
+    - $x \in \R^{n}$ is a vector of unknown variables we're trying to solve for.
 - So the equation can be rewritten as:
     $$A_{1,:}x = b_{1}$$
 
     $$A_{2,:}x = b_{2}$$
 
-    $$ \dots $$
+    $$\dots$$
 
     $$A_{m,:}x = b_{m}$$
 - Or even explicitly as:
-    $$ A_{1,1}x_{1} + A_{1,2}x_{2} + \dots + A_{1,n}x_{n} = b_{1} $$
+    $$A_{1,1}x_{1} + A_{1,2}x_{2} + \dots + A_{1,n}x_{n} = b_{1}$$
     
-    $$ A_{2,1}x_{1} + A_{2,2}x_{2} + \dots + A_{2,n}x_{n} = b_{2} $$
+    $$A_{2,1}x_{1} + A_{2,2}x_{2} + \dots + A_{2,n}x_{n} = b_{2}$$
 
-    $$ \dots $$
+    $$\dots $$
 
-    $$ A_{m,1}x_{1} + A_{m,2}x_{2} + \dots + A_{m,n}x_{n} = b_{m} $$
+    $$A_{m,1}x_{1} + A_{m,2}x_{2} + \dots + A_{m,n}x_{n} = b_{m}$$
 
 
 </span>
