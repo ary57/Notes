@@ -3,7 +3,7 @@
 ## Machine Learning with Scikit-Learn
 
 ### Definitions
-- **Machine Learning**: - Computers are given ability to learn to make decisions from data.
+- **Machine Learning**: Computers are given ability to learn to make decisions from data.
 - **Unsupervised Learning**: Uncovering hidden patterns from unlabeled data.
     - Example: Grouping customers into distinct categories (Clustering).
 - **Supervised Learning**:
